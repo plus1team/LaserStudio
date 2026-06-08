@@ -21,14 +21,13 @@ LightBurn は高機能で、LaserGRBL は軽量で実用的な選択肢です。
 
 実行ファイルは [releases](releases/) ディレクトリ、または GitHub Releases の添付ファイルとして公開されます。
 
-推奨パッケージ名:
+現在ダウンロードできるパッケージ:
 
-- `Laser-Studio-v0.9.2-macOS-arm64.dmg`
-- `Laser-Studio-v0.9.2-macOS-x64.dmg`
-- `Laser-Studio-v0.9.2-Windows-x64.exe`
-- `Laser-Studio-v0.9.2-Windows-x64.zip`
-- `Laser-Studio-v0.9.2-Linux-x64.AppImage`
-- `checksums.txt`
+- [`LaserStudio-v0.9.2-macOS-arm64.dmg`](releases/LaserStudio-v0.9.2-macOS-arm64.dmg)
+- [`LaserStudio-v0.9.2-macOS-arm64.zip`](releases/LaserStudio-v0.9.2-macOS-arm64.zip)
+- [`LaserStudio-v0.9.2-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.2-macOS-x86_64.dmg)
+- [`LaserStudio-v0.9.2-macOS-x86_64.zip`](releases/LaserStudio-v0.9.2-macOS-x86_64.zip)
+- [`LaserStudio-0.9.2-windows-x64-342ecc5.zip`](releases/LaserStudio-0.9.2-windows-x64-342ecc5.zip)
 
 ## 主な機能
 
@@ -161,4 +160,3 @@ Qt のソースコードとライセンス情報:
 - https://www.qt.io/
 - https://www.qt.io/download-open-source
 - https://www.gnu.org/licenses/lgpl-3.0.html
-

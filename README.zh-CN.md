@@ -21,14 +21,13 @@ Laser Studio 当前主要面向通过串口 G-code 流式控制的 GRBL 类 XY �
 
 可执行文件会放在 [releases](releases/) 目录中，或作为 GitHub Releases 附件发布。
 
-推荐安装包命名：
+当前可下载文件：
 
-- `Laser-Studio-v0.9.2-macOS-arm64.dmg`
-- `Laser-Studio-v0.9.2-macOS-x64.dmg`
-- `Laser-Studio-v0.9.2-Windows-x64.exe`
-- `Laser-Studio-v0.9.2-Windows-x64.zip`
-- `Laser-Studio-v0.9.2-Linux-x64.AppImage`
-- `checksums.txt`
+- [`LaserStudio-v0.9.2-macOS-arm64.dmg`](releases/LaserStudio-v0.9.2-macOS-arm64.dmg)
+- [`LaserStudio-v0.9.2-macOS-arm64.zip`](releases/LaserStudio-v0.9.2-macOS-arm64.zip)
+- [`LaserStudio-v0.9.2-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.2-macOS-x86_64.dmg)
+- [`LaserStudio-v0.9.2-macOS-x86_64.zip`](releases/LaserStudio-v0.9.2-macOS-x86_64.zip)
+- [`LaserStudio-0.9.2-windows-x64-342ecc5.zip`](releases/LaserStudio-0.9.2-windows-x64-342ecc5.zip)
 
 ## 主要功能
 
@@ -161,4 +160,3 @@ Qt 源码和许可信息：
 - https://www.qt.io/
 - https://www.qt.io/download-open-source
 - https://www.gnu.org/licenses/lgpl-3.0.html
-

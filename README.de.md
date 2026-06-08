@@ -21,14 +21,13 @@ Laser Studio konzentriert sich derzeit auf GRBL-basierte XY-Lasergravierer, die 
 
 Ausführbare Dateien werden im Verzeichnis [releases](releases/) bereitgestellt oder als Anhänge zu GitHub Releases veröffentlicht.
 
-Empfohlene Paketnamen:
+Verfügbare Pakete:
 
-- `Laser-Studio-v0.9.2-macOS-arm64.dmg`
-- `Laser-Studio-v0.9.2-macOS-x64.dmg`
-- `Laser-Studio-v0.9.2-Windows-x64.exe`
-- `Laser-Studio-v0.9.2-Windows-x64.zip`
-- `Laser-Studio-v0.9.2-Linux-x64.AppImage`
-- `checksums.txt`
+- [`LaserStudio-v0.9.2-macOS-arm64.dmg`](releases/LaserStudio-v0.9.2-macOS-arm64.dmg)
+- [`LaserStudio-v0.9.2-macOS-arm64.zip`](releases/LaserStudio-v0.9.2-macOS-arm64.zip)
+- [`LaserStudio-v0.9.2-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.2-macOS-x86_64.dmg)
+- [`LaserStudio-v0.9.2-macOS-x86_64.zip`](releases/LaserStudio-v0.9.2-macOS-x86_64.zip)
+- [`LaserStudio-0.9.2-windows-x64-342ecc5.zip`](releases/LaserStudio-0.9.2-windows-x64-342ecc5.zip)
 
 ## Hauptfunktionen
 
@@ -161,4 +160,3 @@ Qt-Quellcode und Lizenzinformationen:
 - https://www.qt.io/
 - https://www.qt.io/download-open-source
 - https://www.gnu.org/licenses/lgpl-3.0.html
-

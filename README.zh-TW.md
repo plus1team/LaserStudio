@@ -21,14 +21,13 @@ Laser Studio 目前主要面向透過序列埠（串口）G-code 串流控制的
 
 執行檔會放在 [releases](releases/) 目錄中，或作為 GitHub Releases 附件發布。
 
-建議安裝包命名：
+目前可下載檔案：
 
-- `Laser-Studio-v0.9.2-macOS-arm64.dmg`
-- `Laser-Studio-v0.9.2-macOS-x64.dmg`
-- `Laser-Studio-v0.9.2-Windows-x64.exe`
-- `Laser-Studio-v0.9.2-Windows-x64.zip`
-- `Laser-Studio-v0.9.2-Linux-x64.AppImage`
-- `checksums.txt`
+- [`LaserStudio-v0.9.2-macOS-arm64.dmg`](releases/LaserStudio-v0.9.2-macOS-arm64.dmg)
+- [`LaserStudio-v0.9.2-macOS-arm64.zip`](releases/LaserStudio-v0.9.2-macOS-arm64.zip)
+- [`LaserStudio-v0.9.2-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.2-macOS-x86_64.dmg)
+- [`LaserStudio-v0.9.2-macOS-x86_64.zip`](releases/LaserStudio-v0.9.2-macOS-x86_64.zip)
+- [`LaserStudio-0.9.2-windows-x64-342ecc5.zip`](releases/LaserStudio-0.9.2-windows-x64-342ecc5.zip)
 
 ## 主要功能
 
@@ -161,4 +160,3 @@ Qt 原始碼和授權資訊：
 - https://www.qt.io/
 - https://www.qt.io/download-open-source
 - https://www.gnu.org/licenses/lgpl-3.0.html
-
