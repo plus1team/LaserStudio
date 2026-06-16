@@ -23,7 +23,7 @@ Ausführbare Dateien werden im Verzeichnis [releases](releases/) bereitgestellt 
 
 Verfügbare Pakete:
 
-- Windows x64: [`LaserStudio-0.9.3-windows-x64-0cc2fd1.zip`](releases/LaserStudio-0.9.3-windows-x64-0cc2fd1.zip)
+- Windows x64: [`LaserStudio-0.9.3-windows-x64-39e4ebf.zip`](releases/LaserStudio-0.9.3-windows-x64-39e4ebf.zip)
 - macOS Apple Silicon: [`LaserStudio-v0.9.3-macOS-arm64.dmg`](releases/LaserStudio-v0.9.3-macOS-arm64.dmg)
 - macOS Apple Silicon ZIP: [`LaserStudio-v0.9.3-macOS-arm64.zip`](releases/LaserStudio-v0.9.3-macOS-arm64.zip)
 - macOS Intel: [`LaserStudio-v0.9.3-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.3-macOS-x86_64.dmg)

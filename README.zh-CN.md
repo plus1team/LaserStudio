@@ -23,7 +23,7 @@ Laser Studio 当前主要面向通过串口 G-code 流式控制的 GRBL 类 XY �
 
 当前可下载文件：
 
-- Windows x64：[`LaserStudio-0.9.3-windows-x64-0cc2fd1.zip`](releases/LaserStudio-0.9.3-windows-x64-0cc2fd1.zip)
+- Windows x64：[`LaserStudio-0.9.3-windows-x64-39e4ebf.zip`](releases/LaserStudio-0.9.3-windows-x64-39e4ebf.zip)
 - macOS Apple Silicon：[`LaserStudio-v0.9.3-macOS-arm64.dmg`](releases/LaserStudio-v0.9.3-macOS-arm64.dmg)
 - macOS Apple Silicon ZIP：[`LaserStudio-v0.9.3-macOS-arm64.zip`](releases/LaserStudio-v0.9.3-macOS-arm64.zip)
 - macOS Intel：[`LaserStudio-v0.9.3-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.3-macOS-x86_64.dmg)
