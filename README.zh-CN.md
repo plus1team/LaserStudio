@@ -1,6 +1,6 @@
 # Laser Studio
 
-**版本：V0.9.2**
+**版本：V0.9.3**
 
 语言：
 
@@ -23,11 +23,13 @@ Laser Studio 当前主要面向通过串口 G-code 流式控制的 GRBL 类 XY �
 
 当前可下载文件：
 
-- [`LaserStudio-v0.9.2-macOS-arm64.dmg`](releases/LaserStudio-v0.9.2-macOS-arm64.dmg)
-- [`LaserStudio-v0.9.2-macOS-arm64.zip`](releases/LaserStudio-v0.9.2-macOS-arm64.zip)
-- [`LaserStudio-v0.9.2-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.2-macOS-x86_64.dmg)
-- [`LaserStudio-v0.9.2-macOS-x86_64.zip`](releases/LaserStudio-v0.9.2-macOS-x86_64.zip)
-- [`LaserStudio-0.9.2-windows-x64-342ecc5.zip`](releases/LaserStudio-0.9.2-windows-x64-342ecc5.zip)
+- Windows x64：[`LaserStudio-0.9.3-windows-x64-0cc2fd1.zip`](releases/LaserStudio-0.9.3-windows-x64-0cc2fd1.zip)
+- macOS Apple Silicon：[`LaserStudio-v0.9.3-macOS-arm64.dmg`](releases/LaserStudio-v0.9.3-macOS-arm64.dmg)
+- macOS Apple Silicon ZIP：[`LaserStudio-v0.9.3-macOS-arm64.zip`](releases/LaserStudio-v0.9.3-macOS-arm64.zip)
+- macOS Intel：[`LaserStudio-v0.9.3-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.3-macOS-x86_64.dmg)
+- macOS Intel ZIP：[`LaserStudio-v0.9.3-macOS-x86_64.zip`](releases/LaserStudio-v0.9.3-macOS-x86_64.zip)
+- SHA-256 校验值：[`checksums.txt`](releases/checksums.txt)
+- 版本说明：[`release-notes-v0.9.3.md`](releases/release-notes-v0.9.3.md)
 
 ## 主要功能
 
@@ -130,7 +132,7 @@ Laser Studio 提供 G-code 模拟窗口，可以在发送到设备前检查生�
 
 ## 当前范围
 
-V0.9.2 聚焦桌面编辑，以及面向 XY 激光雕刻机的 GRBL 串口流式执行。
+V0.9.3 聚焦桌面编辑，以及面向 XY 激光雕刻机的 GRBL 串口流式执行。
 
 当前重点：
 

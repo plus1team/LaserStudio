@@ -1,6 +1,6 @@
 # Laser Studio
 
-**バージョン: V0.9.2**
+**バージョン: V0.9.3**
 
 言語:
 
@@ -23,11 +23,13 @@ LightBurn は高機能で、LaserGRBL は軽量で実用的な選択肢です。
 
 現在ダウンロードできるパッケージ:
 
-- [`LaserStudio-v0.9.2-macOS-arm64.dmg`](releases/LaserStudio-v0.9.2-macOS-arm64.dmg)
-- [`LaserStudio-v0.9.2-macOS-arm64.zip`](releases/LaserStudio-v0.9.2-macOS-arm64.zip)
-- [`LaserStudio-v0.9.2-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.2-macOS-x86_64.dmg)
-- [`LaserStudio-v0.9.2-macOS-x86_64.zip`](releases/LaserStudio-v0.9.2-macOS-x86_64.zip)
-- [`LaserStudio-0.9.2-windows-x64-342ecc5.zip`](releases/LaserStudio-0.9.2-windows-x64-342ecc5.zip)
+- Windows x64: [`LaserStudio-0.9.3-windows-x64-0cc2fd1.zip`](releases/LaserStudio-0.9.3-windows-x64-0cc2fd1.zip)
+- macOS Apple Silicon: [`LaserStudio-v0.9.3-macOS-arm64.dmg`](releases/LaserStudio-v0.9.3-macOS-arm64.dmg)
+- macOS Apple Silicon ZIP: [`LaserStudio-v0.9.3-macOS-arm64.zip`](releases/LaserStudio-v0.9.3-macOS-arm64.zip)
+- macOS Intel: [`LaserStudio-v0.9.3-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.3-macOS-x86_64.dmg)
+- macOS Intel ZIP: [`LaserStudio-v0.9.3-macOS-x86_64.zip`](releases/LaserStudio-v0.9.3-macOS-x86_64.zip)
+- SHA-256 チェックサム: [`checksums.txt`](releases/checksums.txt)
+- リリースノート: [`release-notes-v0.9.3.md`](releases/release-notes-v0.9.3.md)
 
 ## 主な機能
 
@@ -130,7 +132,7 @@ Laser Studio には G-code シミュレーション画面があり、機器へ�
 
 ## 現在の対象範囲
 
-V0.9.2 では、デスクトップ上での編集と、XY レーザー加工機向けの GRBL シリアルストリーミング実行に重点を置いています。
+V0.9.3 では、デスクトップ上での編集と、XY レーザー加工機向けの GRBL シリアルストリーミング実行に重点を置いています。
 
 現在の重点:
 

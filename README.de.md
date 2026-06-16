@@ -1,6 +1,6 @@
 # Laser Studio
 
-**Version: V0.9.2**
+**Version: V0.9.3**
 
 Sprachen:
 
@@ -23,11 +23,13 @@ Ausführbare Dateien werden im Verzeichnis [releases](releases/) bereitgestellt 
 
 Verfügbare Pakete:
 
-- [`LaserStudio-v0.9.2-macOS-arm64.dmg`](releases/LaserStudio-v0.9.2-macOS-arm64.dmg)
-- [`LaserStudio-v0.9.2-macOS-arm64.zip`](releases/LaserStudio-v0.9.2-macOS-arm64.zip)
-- [`LaserStudio-v0.9.2-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.2-macOS-x86_64.dmg)
-- [`LaserStudio-v0.9.2-macOS-x86_64.zip`](releases/LaserStudio-v0.9.2-macOS-x86_64.zip)
-- [`LaserStudio-0.9.2-windows-x64-342ecc5.zip`](releases/LaserStudio-0.9.2-windows-x64-342ecc5.zip)
+- Windows x64: [`LaserStudio-0.9.3-windows-x64-0cc2fd1.zip`](releases/LaserStudio-0.9.3-windows-x64-0cc2fd1.zip)
+- macOS Apple Silicon: [`LaserStudio-v0.9.3-macOS-arm64.dmg`](releases/LaserStudio-v0.9.3-macOS-arm64.dmg)
+- macOS Apple Silicon ZIP: [`LaserStudio-v0.9.3-macOS-arm64.zip`](releases/LaserStudio-v0.9.3-macOS-arm64.zip)
+- macOS Intel: [`LaserStudio-v0.9.3-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.3-macOS-x86_64.dmg)
+- macOS Intel ZIP: [`LaserStudio-v0.9.3-macOS-x86_64.zip`](releases/LaserStudio-v0.9.3-macOS-x86_64.zip)
+- SHA-256-Prüfsummen: [`checksums.txt`](releases/checksums.txt)
+- Versionshinweise: [`release-notes-v0.9.3.md`](releases/release-notes-v0.9.3.md)
 
 ## Hauptfunktionen
 
@@ -130,7 +132,7 @@ Laser Studio enthält einen G-Code-Simulationsdialog, mit dem sich der erzeugte 
 
 ## Aktueller Umfang
 
-V0.9.2 konzentriert sich auf Desktop-Bearbeitung und GRBL-Streaming über serielle Schnittstellen für XY-Lasergravierer.
+V0.9.3 konzentriert sich auf Desktop-Bearbeitung und GRBL-Streaming über serielle Schnittstellen für XY-Lasergravierer.
 
 Aktueller Fokus:
 

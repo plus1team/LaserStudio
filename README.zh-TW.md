@@ -1,6 +1,6 @@
 # Laser Studio
 
-**版本：V0.9.2**
+**版本：V0.9.3**
 
 語言：
 
@@ -23,11 +23,13 @@ Laser Studio 目前主要面向透過序列埠（串口）G-code 串流控制的
 
 目前可下載檔案：
 
-- [`LaserStudio-v0.9.2-macOS-arm64.dmg`](releases/LaserStudio-v0.9.2-macOS-arm64.dmg)
-- [`LaserStudio-v0.9.2-macOS-arm64.zip`](releases/LaserStudio-v0.9.2-macOS-arm64.zip)
-- [`LaserStudio-v0.9.2-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.2-macOS-x86_64.dmg)
-- [`LaserStudio-v0.9.2-macOS-x86_64.zip`](releases/LaserStudio-v0.9.2-macOS-x86_64.zip)
-- [`LaserStudio-0.9.2-windows-x64-342ecc5.zip`](releases/LaserStudio-0.9.2-windows-x64-342ecc5.zip)
+- Windows x64：[`LaserStudio-0.9.3-windows-x64-0cc2fd1.zip`](releases/LaserStudio-0.9.3-windows-x64-0cc2fd1.zip)
+- macOS Apple Silicon：[`LaserStudio-v0.9.3-macOS-arm64.dmg`](releases/LaserStudio-v0.9.3-macOS-arm64.dmg)
+- macOS Apple Silicon ZIP：[`LaserStudio-v0.9.3-macOS-arm64.zip`](releases/LaserStudio-v0.9.3-macOS-arm64.zip)
+- macOS Intel：[`LaserStudio-v0.9.3-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.3-macOS-x86_64.dmg)
+- macOS Intel ZIP：[`LaserStudio-v0.9.3-macOS-x86_64.zip`](releases/LaserStudio-v0.9.3-macOS-x86_64.zip)
+- SHA-256 校驗值：[`checksums.txt`](releases/checksums.txt)
+- 版本說明：[`release-notes-v0.9.3.md`](releases/release-notes-v0.9.3.md)
 
 ## 主要功能
 
@@ -130,7 +132,7 @@ Laser Studio 內建 G-code 模擬視窗，可在送出到裝置前檢查產生�
 
 ## 目前範圍
 
-V0.9.2 聚焦桌面編輯，以及面向 XY 雷射雕刻機的 GRBL 序列埠串流執行。
+V0.9.3 聚焦桌面編輯，以及面向 XY 雷射雕刻機的 GRBL 序列埠串流執行。
 
 目前重點：
 
