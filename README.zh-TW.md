@@ -23,7 +23,7 @@ Laser Studio 目前主要面向透過序列埠（串口）G-code 串流控制的
 
 目前可下載檔案：
 
-- Windows x64：[`LaserStudio-0.9.3-windows-x64-39e4ebf.zip`](releases/LaserStudio-0.9.3-windows-x64-39e4ebf.zip)
+- Windows x64：[`LaserStudio-0.9.3-windows-x64-cd5e9a2.zip`](releases/LaserStudio-0.9.3-windows-x64-cd5e9a2.zip)
 - macOS Apple Silicon：[`LaserStudio-v0.9.3-macOS-arm64.dmg`](releases/LaserStudio-v0.9.3-macOS-arm64.dmg)
 - macOS Apple Silicon ZIP：[`LaserStudio-v0.9.3-macOS-arm64.zip`](releases/LaserStudio-v0.9.3-macOS-arm64.zip)
 - macOS Intel：[`LaserStudio-v0.9.3-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.3-macOS-x86_64.dmg)
