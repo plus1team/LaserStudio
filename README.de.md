@@ -23,7 +23,7 @@ Ausführbare Dateien werden im Verzeichnis [releases](releases/) bereitgestellt 
 
 Verfügbare Pakete:
 
-- Windows x64: [`LaserStudio-1.0.1-windows-x64-370b92c.zip`](releases/LaserStudio-1.0.1-windows-x64-370b92c.zip)
+- Windows x64: [`LaserStudio-1.0.1-windows-x64-d21dae8.zip`](releases/LaserStudio-1.0.1-windows-x64-d21dae8.zip)
 - macOS Apple Silicon: [`LaserStudio-v1.0.1-macOS-arm64.dmg`](releases/LaserStudio-v1.0.1-macOS-arm64.dmg)
 - macOS Apple Silicon ZIP: [`LaserStudio-v1.0.1-macOS-arm64.zip`](releases/LaserStudio-v1.0.1-macOS-arm64.zip)
 - macOS Intel: [`LaserStudio-v1.0.1-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.1-macOS-x86_64.dmg)
@@ -38,6 +38,7 @@ Verfügbare Pakete:
 - Rechteckige Arrays, die Bearbeitung von Vektorpfadknoten, mehrzeiliger Text und die laufende Aktualisierung von Objektgrenzen wurden verbessert.
 - Die QR-Code-Erzeugung für längere Inhalte läuft mit einer asynchronen Fortschrittsanzeige.
 - Ausgeblendete Objekte werden nicht mehr verarbeitet; zugleich reagiert die Druckvorbereitung flüssiger.
+- Das aktualisierte Windows-Paket vervollständigt die Übersetzungen im Druckarbeitsbereich, wählt unterstützte Systemsprachen automatisch und verwendet Englisch als Rückfalloption für unbekannte oder fehlende Übersetzungen.
 - Die automatisierten plattformübergreifenden Regressionstests wurden erweitert.
 
 ## Hauptfunktionen
@@ -117,27 +118,29 @@ Laser Studio kann GRBL-Geräteprofile und serielle Verbindungen verwalten.
 
 ### G-Code-Vorschau und Jobsteuerung
 
-Bevor ein Job an die Maschine gesendet wird, kompiliert Laser Studio das Projekt zu ausführbarem G-Code und zeigt den erzeugten Befehlsstrom an.
+Bevor ein Job an die Maschine gesendet wird, öffnet Laser Studio einen bildschirmfüllenden Druckarbeitsbereich: links den G-Code-Befehlsstrom, in der Mitte die Pfadvorschau und rechts die Drucksteuerung.
 
 - G-Code-Vorschau mit Zeilennummern.
 - Sichtbares Zeilenfenster für große Jobs.
+- Zentrale Pfadvorschau für simulierte Bewegungen und gesendeten G-Code.
 - Hervorhebung der aktuellen Zeile während der Ausführung.
 - Start-, Pause-, Fortsetzen- und Stoppsteuerung.
 - Gerätestatus und Fortschrittsverfolgung.
+- Ein Druckauftrag-Tab zeigt den Fortschritt dauerhaft an und öffnet den Arbeitsbereich erneut.
 - Sicherheitsprüfungen für Arbeitsbereichsgrenzen und ungültige Prozesseinstellungen.
 
-![G-Code-Vorschau](screenshots/gcode-preview.png)
+![Druckarbeitsbereich](screenshots/gcode-preview.png)
 
 ### G-Code-Simulation
 
-Laser Studio enthält einen G-Code-Simulationsdialog, mit dem sich der erzeugte Pfad vor dem Senden an das Gerät prüfen lässt.
+Die Simulation läuft im selben Druckarbeitsbereich, damit sich der erzeugte Pfad vor dem Senden an das Gerät prüfen lässt. Im Simulationsmodus erscheinen die Steuerelemente unterhalb der Pfadvorschau.
 
 - Simulierte Werkzeugbahn im Arbeitsbereich.
 - Einstellbare Simulationsgeschwindigkeit.
 - Optionale Anzeige von Leerfahrwegen.
 - Fortschritt beim Parsen der Zeilen und Bewegungsstatus.
 
-![G-Code-Simulation](screenshots/simulation.png)
+![G-Code-Simulation im Druckarbeitsbereich](screenshots/simulation.png)
 
 ## Aktueller Umfang
 

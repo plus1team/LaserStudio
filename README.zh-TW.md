@@ -23,7 +23,7 @@ Laser Studio 目前主要面向透過序列埠（串口）G-code 串流控制的
 
 目前可下載檔案：
 
-- Windows x64：[`LaserStudio-1.0.1-windows-x64-370b92c.zip`](releases/LaserStudio-1.0.1-windows-x64-370b92c.zip)
+- Windows x64：[`LaserStudio-1.0.1-windows-x64-d21dae8.zip`](releases/LaserStudio-1.0.1-windows-x64-d21dae8.zip)
 - macOS Apple Silicon：[`LaserStudio-v1.0.1-macOS-arm64.dmg`](releases/LaserStudio-v1.0.1-macOS-arm64.dmg)
 - macOS Apple Silicon ZIP：[`LaserStudio-v1.0.1-macOS-arm64.zip`](releases/LaserStudio-v1.0.1-macOS-arm64.zip)
 - macOS Intel：[`LaserStudio-v1.0.1-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.1-macOS-x86_64.dmg)
@@ -38,6 +38,7 @@ Laser Studio 目前主要面向透過序列埠（串口）G-code 串流控制的
 - 改善矩陣陣列、向量路徑節點編輯、多行文字編輯和物件邊界即時更新。
 - 改善長內容 QR Code 產生，並加入非同步進度顯示。
 - 隱藏物件不再參與加工，同時提升列印準備流程的介面回應速度。
+- 更新 Windows 套件，補齊列印工作區多語言、支援的系統語言自動選擇，以及未知或缺少翻譯時回退到英文的處理。
 - 擴充 Windows 與 macOS 跨平台自動回歸測試。
 
 ## 主要功能
@@ -117,27 +118,29 @@ Laser Studio 可以管理 GRBL 印表機設定檔和序列埠連線。
 
 ### G-code 預覽和列印控制
 
-把任務送到裝置之前，Laser Studio 會先將專案編譯成可執行的 G-code，並顯示產生的命令串流。
+把任務送到裝置之前，Laser Studio 會開啟全尺寸列印任務工作區：左側顯示 G-code 命令串流，中間顯示路徑預覽，右側提供列印控制。
 
 - 帶行號的 G-code 預覽。
 - 大型任務會使用可見行視窗，避免介面卡頓。
+- 中央路徑預覽可顯示模擬運動以及已傳送的 G-code。
 - 執行時高亮目前行。
 - 開始、暫停、繼續和停止控制。
 - 裝置狀態和進度追蹤。
+- 列印任務分頁會持續顯示進度，點擊後可重新展開工作區。
 - 對工作區範圍和無效工藝設定進行安全檢查。
 
-![G-code 預覽](screenshots/zh/gcode-preview.png)
+![列印任務工作區](screenshots/zh/gcode-preview.png)
 
 ### G-code 模擬列印
 
-Laser Studio 內建 G-code 模擬視窗，可在送出到裝置前檢查產生的路徑。
+G-code 模擬會在同一個列印任務工作區中執行，可在送出到裝置前檢查產生的路徑。進入模擬模式後，模擬控制會顯示在路徑預覽下方。
 
 - 在工作區中模擬刀路。
 - 可調整模擬速度。
 - 可選擇顯示空移路徑。
 - 顯示解析行進度和運動狀態。
 
-![G-code 模擬列印](screenshots/zh/simulation.png)
+![列印任務工作區中的 G-code 模擬列印](screenshots/zh/simulation.png)
 
 ## 目前範圍
 

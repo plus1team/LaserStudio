@@ -23,7 +23,7 @@ Executable files are published in the [releases](releases/) directory or attache
 
 Available packages:
 
-- Windows x64: [`LaserStudio-1.0.1-windows-x64-370b92c.zip`](releases/LaserStudio-1.0.1-windows-x64-370b92c.zip)
+- Windows x64: [`LaserStudio-1.0.1-windows-x64-d21dae8.zip`](releases/LaserStudio-1.0.1-windows-x64-d21dae8.zip)
 - macOS Apple Silicon: [`LaserStudio-v1.0.1-macOS-arm64.dmg`](releases/LaserStudio-v1.0.1-macOS-arm64.dmg)
 - macOS Apple Silicon ZIP: [`LaserStudio-v1.0.1-macOS-arm64.zip`](releases/LaserStudio-v1.0.1-macOS-arm64.zip)
 - macOS Intel: [`LaserStudio-v1.0.1-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.1-macOS-x86_64.dmg)
@@ -38,6 +38,7 @@ Available packages:
 - Improved array layout, vector path node editing, multiline text editing, and live object bounds.
 - Improved QR-code generation for longer content with asynchronous progress.
 - Excluded hidden objects from processing and improved print preparation responsiveness.
+- Refreshed the Windows package with complete print-workspace localization, supported system-language selection, and English fallback for unknown or missing translations.
 - Expanded cross-platform automated regression coverage.
 
 ## Main Features
@@ -117,27 +118,29 @@ Laser Studio can manage GRBL printer profiles and serial connections.
 
 ### G-code Preview and Print Control
 
-Before sending a job to the machine, Laser Studio compiles the project into executable G-code and shows the generated command stream.
+Before sending a job to the machine, Laser Studio opens a full-size print task workspace with the G-code command stream on the left, the path preview in the center, and print controls on the right.
 
 - G-code preview with line numbers.
 - Large-job handling with a visible line window.
+- Central path preview for simulated motion and sent G-code.
 - Current-line highlighting during execution.
 - Start, pause, resume, and stop controls.
 - Device status and progress tracking.
+- A print task tab that keeps progress visible and reopens the workspace when selected.
 - Safety checks for workspace bounds and invalid process settings.
 
-![G-code preview](screenshots/gcode-preview.png)
+![Print task workspace](screenshots/gcode-preview.png)
 
 ### G-code Simulation
 
-Laser Studio includes a G-code simulation dialog so you can inspect the generated path before sending it to the device.
+Simulation runs inside the same print task workspace so you can inspect the generated path before sending it to the device. Simulation controls appear below the path preview while simulation mode is active.
 
 - Simulated toolpath view on the workspace.
 - Adjustable simulation speed.
 - Optional travel-path display.
 - Parsed-line progress and motion status.
 
-![G-code simulation](screenshots/simulation.png)
+![G-code simulation in the print task workspace](screenshots/simulation.png)
 
 ## Current Scope
 

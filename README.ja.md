@@ -23,7 +23,7 @@ LightBurn は高機能で、LaserGRBL は軽量で実用的な選択肢です。
 
 現在ダウンロードできるパッケージ:
 
-- Windows x64: [`LaserStudio-1.0.1-windows-x64-370b92c.zip`](releases/LaserStudio-1.0.1-windows-x64-370b92c.zip)
+- Windows x64: [`LaserStudio-1.0.1-windows-x64-d21dae8.zip`](releases/LaserStudio-1.0.1-windows-x64-d21dae8.zip)
 - macOS Apple Silicon: [`LaserStudio-v1.0.1-macOS-arm64.dmg`](releases/LaserStudio-v1.0.1-macOS-arm64.dmg)
 - macOS Apple Silicon ZIP: [`LaserStudio-v1.0.1-macOS-arm64.zip`](releases/LaserStudio-v1.0.1-macOS-arm64.zip)
 - macOS Intel: [`LaserStudio-v1.0.1-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.1-macOS-x86_64.dmg)
@@ -38,6 +38,7 @@ LightBurn は高機能で、LaserGRBL は軽量で実用的な選択肢です。
 - 矩形配列、ベクターパスのノード編集、複数行テキスト編集、オブジェクト境界の即時更新を改善しました。
 - 長い内容の QR コード生成を改善し、非同期の進捗表示を追加しました。
 - 非表示オブジェクトを加工対象から除外し、印刷準備中の画面応答性を改善しました。
+- Windows パッケージを更新し、印刷ワークスペースの多言語対応、対応するシステム言語の自動選択、不明または未翻訳の文言を英語へフォールバックする処理を追加しました。
 - Windows と macOS のクロスプラットフォーム自動回帰テストを拡充しました。
 
 ## 主な機能
@@ -117,27 +118,29 @@ Laser Studio は、GRBL 機器プロファイルとシリアル接続を管理�
 
 ### G-code プレビューと加工制御
 
-ジョブを機器へ送信する前に、Laser Studio はプロジェクトを実行可能な G-code にコンパイルし、生成されたコマンド列を表示します。
+ジョブを機器へ送信する前に、Laser Studio はフルサイズの印刷ジョブワークスペースを開きます。左側に G-code コマンド列、中央にパスプレビュー、右側に印刷操作を表示します。
 
 - 行番号付きの G-code プレビュー。
 - 大きなジョブでも扱いやすい表示行ウィンドウ。
+- シミュレーション動作と送信済み G-code を表示する中央パスプレビュー。
 - 実行中の現在行ハイライト。
 - 開始、一時停止、再開、停止の制御。
 - 機器状態と進捗の追跡。
+- 進捗を常時表示し、選択するとワークスペースを再表示する印刷ジョブタブ。
 - 作業エリア範囲と不正な加工設定に対する安全チェック。
 
-![G-code プレビュー](screenshots/gcode-preview.png)
+![印刷ジョブワークスペース](screenshots/gcode-preview.png)
 
 ### G-code シミュレーション
 
-Laser Studio には G-code シミュレーション画面があり、機器へ送信する前に生成されたパスを確認できます。
+シミュレーションは同じ印刷ジョブワークスペース内で実行され、機器へ送信する前に生成されたパスを確認できます。シミュレーション中は、パスプレビューの下に操作項目が表示されます。
 
 - 作業エリア上でツールパスをシミュレーション。
 - シミュレーション速度の調整。
 - 空走経路の表示切り替え。
 - 解析行の進捗と動作状態の表示。
 
-![G-code シミュレーション](screenshots/simulation.png)
+![印刷ジョブワークスペース内の G-code シミュレーション](screenshots/simulation.png)
 
 ## 現在の対象範囲
 
