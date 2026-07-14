@@ -1,6 +1,6 @@
 # Laser Studio
 
-**バージョン: V0.9.3**
+**バージョン: V1.0.1**
 
 言語:
 
@@ -23,13 +23,22 @@ LightBurn は高機能で、LaserGRBL は軽量で実用的な選択肢です。
 
 現在ダウンロードできるパッケージ:
 
-- Windows x64: [`LaserStudio-0.9.3-windows-x64-cd5e9a2.zip`](releases/LaserStudio-0.9.3-windows-x64-cd5e9a2.zip)
-- macOS Apple Silicon: [`LaserStudio-v0.9.3-macOS-arm64.dmg`](releases/LaserStudio-v0.9.3-macOS-arm64.dmg)
-- macOS Apple Silicon ZIP: [`LaserStudio-v0.9.3-macOS-arm64.zip`](releases/LaserStudio-v0.9.3-macOS-arm64.zip)
-- macOS Intel: [`LaserStudio-v0.9.3-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.3-macOS-x86_64.dmg)
-- macOS Intel ZIP: [`LaserStudio-v0.9.3-macOS-x86_64.zip`](releases/LaserStudio-v0.9.3-macOS-x86_64.zip)
+- Windows x64: [`LaserStudio-1.0.1-windows-x64-370b92c.zip`](releases/LaserStudio-1.0.1-windows-x64-370b92c.zip)
+- macOS Apple Silicon: [`LaserStudio-v1.0.1-macOS-arm64.dmg`](releases/LaserStudio-v1.0.1-macOS-arm64.dmg)
+- macOS Apple Silicon ZIP: [`LaserStudio-v1.0.1-macOS-arm64.zip`](releases/LaserStudio-v1.0.1-macOS-arm64.zip)
+- macOS Intel: [`LaserStudio-v1.0.1-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.1-macOS-x86_64.dmg)
+- macOS Intel ZIP: [`LaserStudio-v1.0.1-macOS-x86_64.zip`](releases/LaserStudio-v1.0.1-macOS-x86_64.zip)
 - SHA-256 チェックサム: [`checksums.txt`](releases/checksums.txt)
-- リリースノート: [`release-notes-v0.9.3.md`](releases/release-notes-v0.9.3.md)
+- リリースノート: [`release-notes-v1.0.1.md`](releases/release-notes-v1.0.1.md)
+
+## V1.0.1 の主な変更点
+
+- ユーザー作成の材料と加工プリセットに対応し、上書きと削除を確認付きで管理できるようになりました。
+- レーザー光源の選択を、接続した機器の構成に合わせて制限するようにしました。
+- 矩形配列、ベクターパスのノード編集、複数行テキスト編集、オブジェクト境界の即時更新を改善しました。
+- 長い内容の QR コード生成を改善し、非同期の進捗表示を追加しました。
+- 非表示オブジェクトを加工対象から除外し、印刷準備中の画面応答性を改善しました。
+- Windows と macOS のクロスプラットフォーム自動回帰テストを拡充しました。
 
 ## 主な機能
 
@@ -132,7 +141,7 @@ Laser Studio には G-code シミュレーション画面があり、機器へ�
 
 ## 現在の対象範囲
 
-V0.9.3 では、デスクトップ上での編集と、XY レーザー加工機向けの GRBL シリアルストリーミング実行に重点を置いています。
+V1.0.1 では、信頼性の高いデスクトップ編集、材料と加工設定の管理、および XY レーザー加工機向けの GRBL シリアルストリーミング実行に重点を置いています。
 
 現在の重点:
 

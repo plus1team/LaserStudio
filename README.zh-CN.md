@@ -1,6 +1,6 @@
 # Laser Studio
 
-**版本：V0.9.3**
+**版本：V1.0.1**
 
 语言：
 
@@ -23,13 +23,22 @@ Laser Studio 当前主要面向通过串口 G-code 流式控制的 GRBL 类 XY �
 
 当前可下载文件：
 
-- Windows x64：[`LaserStudio-0.9.3-windows-x64-cd5e9a2.zip`](releases/LaserStudio-0.9.3-windows-x64-cd5e9a2.zip)
-- macOS Apple Silicon：[`LaserStudio-v0.9.3-macOS-arm64.dmg`](releases/LaserStudio-v0.9.3-macOS-arm64.dmg)
-- macOS Apple Silicon ZIP：[`LaserStudio-v0.9.3-macOS-arm64.zip`](releases/LaserStudio-v0.9.3-macOS-arm64.zip)
-- macOS Intel：[`LaserStudio-v0.9.3-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.3-macOS-x86_64.dmg)
-- macOS Intel ZIP：[`LaserStudio-v0.9.3-macOS-x86_64.zip`](releases/LaserStudio-v0.9.3-macOS-x86_64.zip)
+- Windows x64：[`LaserStudio-1.0.1-windows-x64-370b92c.zip`](releases/LaserStudio-1.0.1-windows-x64-370b92c.zip)
+- macOS Apple Silicon：[`LaserStudio-v1.0.1-macOS-arm64.dmg`](releases/LaserStudio-v1.0.1-macOS-arm64.dmg)
+- macOS Apple Silicon ZIP：[`LaserStudio-v1.0.1-macOS-arm64.zip`](releases/LaserStudio-v1.0.1-macOS-arm64.zip)
+- macOS Intel：[`LaserStudio-v1.0.1-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.1-macOS-x86_64.dmg)
+- macOS Intel ZIP：[`LaserStudio-v1.0.1-macOS-x86_64.zip`](releases/LaserStudio-v1.0.1-macOS-x86_64.zip)
 - SHA-256 校验值：[`checksums.txt`](releases/checksums.txt)
-- 版本说明：[`release-notes-v0.9.3.md`](releases/release-notes-v0.9.3.md)
+- 版本说明：[`release-notes-v1.0.1.md`](releases/release-notes-v1.0.1.md)
+
+## V1.0.1 更新内容
+
+- 支持新增材料和工艺预设，并提供受控的覆盖与删除流程。
+- 激光光源选择会根据已连接设备的配置自动约束。
+- 优化矩阵阵列、矢量路径节点编辑、多行文字编辑和对象包围框实时更新。
+- 优化长内容二维码生成，并增加异步进度显示。
+- 隐藏对象不再参与加工，同时提升打印准备过程的界面响应速度。
+- 扩充 Windows 与 macOS 跨平台自动回归测试。
 
 ## 主要功能
 
@@ -132,7 +141,7 @@ Laser Studio 提供 G-code 模拟窗口，可以在发送到设备前检查生�
 
 ## 当前范围
 
-V0.9.3 聚焦桌面编辑，以及面向 XY 激光雕刻机的 GRBL 串口流式执行。
+V1.0.1 聚焦可靠的桌面编辑、材料与工艺管理，以及面向 XY 激光雕刻机的 GRBL 串口流式执行。
 
 当前重点：
 

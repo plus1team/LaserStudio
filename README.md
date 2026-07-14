@@ -1,6 +1,6 @@
 # Laser Studio
 
-**Version: V0.9.3**
+**Version: V1.0.1**
 
 Languages:
 
@@ -23,13 +23,22 @@ Executable files are published in the [releases](releases/) directory or attache
 
 Available packages:
 
-- Windows x64: [`LaserStudio-0.9.3-windows-x64-cd5e9a2.zip`](releases/LaserStudio-0.9.3-windows-x64-cd5e9a2.zip)
-- macOS Apple Silicon: [`LaserStudio-v0.9.3-macOS-arm64.dmg`](releases/LaserStudio-v0.9.3-macOS-arm64.dmg)
-- macOS Apple Silicon ZIP: [`LaserStudio-v0.9.3-macOS-arm64.zip`](releases/LaserStudio-v0.9.3-macOS-arm64.zip)
-- macOS Intel: [`LaserStudio-v0.9.3-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.3-macOS-x86_64.dmg)
-- macOS Intel ZIP: [`LaserStudio-v0.9.3-macOS-x86_64.zip`](releases/LaserStudio-v0.9.3-macOS-x86_64.zip)
+- Windows x64: [`LaserStudio-1.0.1-windows-x64-370b92c.zip`](releases/LaserStudio-1.0.1-windows-x64-370b92c.zip)
+- macOS Apple Silicon: [`LaserStudio-v1.0.1-macOS-arm64.dmg`](releases/LaserStudio-v1.0.1-macOS-arm64.dmg)
+- macOS Apple Silicon ZIP: [`LaserStudio-v1.0.1-macOS-arm64.zip`](releases/LaserStudio-v1.0.1-macOS-arm64.zip)
+- macOS Intel: [`LaserStudio-v1.0.1-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.1-macOS-x86_64.dmg)
+- macOS Intel ZIP: [`LaserStudio-v1.0.1-macOS-x86_64.zip`](releases/LaserStudio-v1.0.1-macOS-x86_64.zip)
 - SHA-256 checksums: [`checksums.txt`](releases/checksums.txt)
-- Release notes: [`release-notes-v0.9.3.md`](releases/release-notes-v0.9.3.md)
+- Release notes: [`release-notes-v1.0.1.md`](releases/release-notes-v1.0.1.md)
+
+## What's New in V1.0.1
+
+- Added user-created materials and process presets with controlled overwrite and deletion workflows.
+- Made laser-source selection match the connected device configuration.
+- Improved array layout, vector path node editing, multiline text editing, and live object bounds.
+- Improved QR-code generation for longer content with asynchronous progress.
+- Excluded hidden objects from processing and improved print preparation responsiveness.
+- Expanded cross-platform automated regression coverage.
 
 ## Main Features
 
@@ -132,7 +141,7 @@ Laser Studio includes a G-code simulation dialog so you can inspect the generate
 
 ## Current Scope
 
-V0.9.3 focuses on desktop editing and GRBL serial-stream execution for XY laser engravers.
+V1.0.1 focuses on reliable desktop editing, material and process management, and GRBL serial-stream execution for XY laser engravers.
 
 Current focus:
 

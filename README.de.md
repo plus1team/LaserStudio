@@ -1,6 +1,6 @@
 # Laser Studio
 
-**Version: V0.9.3**
+**Version: V1.0.1**
 
 Sprachen:
 
@@ -23,13 +23,22 @@ Ausführbare Dateien werden im Verzeichnis [releases](releases/) bereitgestellt 
 
 Verfügbare Pakete:
 
-- Windows x64: [`LaserStudio-0.9.3-windows-x64-cd5e9a2.zip`](releases/LaserStudio-0.9.3-windows-x64-cd5e9a2.zip)
-- macOS Apple Silicon: [`LaserStudio-v0.9.3-macOS-arm64.dmg`](releases/LaserStudio-v0.9.3-macOS-arm64.dmg)
-- macOS Apple Silicon ZIP: [`LaserStudio-v0.9.3-macOS-arm64.zip`](releases/LaserStudio-v0.9.3-macOS-arm64.zip)
-- macOS Intel: [`LaserStudio-v0.9.3-macOS-x86_64.dmg`](releases/LaserStudio-v0.9.3-macOS-x86_64.dmg)
-- macOS Intel ZIP: [`LaserStudio-v0.9.3-macOS-x86_64.zip`](releases/LaserStudio-v0.9.3-macOS-x86_64.zip)
+- Windows x64: [`LaserStudio-1.0.1-windows-x64-370b92c.zip`](releases/LaserStudio-1.0.1-windows-x64-370b92c.zip)
+- macOS Apple Silicon: [`LaserStudio-v1.0.1-macOS-arm64.dmg`](releases/LaserStudio-v1.0.1-macOS-arm64.dmg)
+- macOS Apple Silicon ZIP: [`LaserStudio-v1.0.1-macOS-arm64.zip`](releases/LaserStudio-v1.0.1-macOS-arm64.zip)
+- macOS Intel: [`LaserStudio-v1.0.1-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.1-macOS-x86_64.dmg)
+- macOS Intel ZIP: [`LaserStudio-v1.0.1-macOS-x86_64.zip`](releases/LaserStudio-v1.0.1-macOS-x86_64.zip)
 - SHA-256-Prüfsummen: [`checksums.txt`](releases/checksums.txt)
-- Versionshinweise: [`release-notes-v0.9.3.md`](releases/release-notes-v0.9.3.md)
+- Versionshinweise: [`release-notes-v1.0.1.md`](releases/release-notes-v1.0.1.md)
+
+## Neuerungen in V1.0.1
+
+- Benutzerdefinierte Materialien und Prozessvorgaben können mit kontrollierten Abläufen zum Überschreiben und Löschen verwaltet werden.
+- Die Auswahl der Laserquelle richtet sich nach der Konfiguration des verbundenen Geräts.
+- Rechteckige Arrays, die Bearbeitung von Vektorpfadknoten, mehrzeiliger Text und die laufende Aktualisierung von Objektgrenzen wurden verbessert.
+- Die QR-Code-Erzeugung für längere Inhalte läuft mit einer asynchronen Fortschrittsanzeige.
+- Ausgeblendete Objekte werden nicht mehr verarbeitet; zugleich reagiert die Druckvorbereitung flüssiger.
+- Die automatisierten plattformübergreifenden Regressionstests wurden erweitert.
 
 ## Hauptfunktionen
 
@@ -132,7 +141,7 @@ Laser Studio enthält einen G-Code-Simulationsdialog, mit dem sich der erzeugte 
 
 ## Aktueller Umfang
 
-V0.9.3 konzentriert sich auf Desktop-Bearbeitung und GRBL-Streaming über serielle Schnittstellen für XY-Lasergravierer.
+V1.0.1 konzentriert sich auf zuverlässige Desktop-Bearbeitung, Material- und Prozessverwaltung sowie GRBL-Streaming über serielle Schnittstellen für XY-Lasergravierer.
 
 Aktueller Fokus:
 
