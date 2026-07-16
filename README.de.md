@@ -28,6 +28,7 @@ Verfügbare Pakete:
 - macOS Apple Silicon ZIP: [`LaserStudio-v1.0.2-macOS-arm64.zip`](releases/LaserStudio-v1.0.2-macOS-arm64.zip)
 - macOS Intel: [`LaserStudio-v1.0.2-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.2-macOS-x86_64.dmg)
 - macOS Intel ZIP: [`LaserStudio-v1.0.2-macOS-x86_64.zip`](releases/LaserStudio-v1.0.2-macOS-x86_64.zip)
+- macOS-Systemanforderung: macOS 13.0 oder neuer; wählen Sie das Paket passend zum Prozessor Ihres Macs.
 - SHA-256-Prüfsummen: [`checksums.txt`](releases/checksums.txt)
 - Versionshinweise: [`release-notes-v1.0.2.md`](releases/release-notes-v1.0.2.md)
 
@@ -37,7 +38,7 @@ Verfügbare Pakete:
 - Update-Hinweise und Einstellungen sind in allen fünf unterstützten Sprachen verfügbar.
 - Neuinstallationen übernehmen eine unterstützte Systemsprache und verwenden Englisch, wenn keine Übersetzung passt.
 - Materialnamen, Kategorien, Beschreibungen, Sicherheitshinweise und Prozesszusammenfassungen wurden vollständig lokalisiert.
-- Laufzeitbereitstellung, Release-Signierung und echte Startprüfung unter macOS wurden robuster gemacht.
+- Die Qt-6.11-Pakete wurden für macOS 13.0+ neu erstellt, mit isolierten Abhängigkeiten und rekursiver Kompatibilitätsprüfung des App-Bundles.
 - Regressionstests für Updates, Sprachkonfiguration, Materialverwaltung und Bild-Overscan wurden erweitert.
 
 ## Hauptfunktionen

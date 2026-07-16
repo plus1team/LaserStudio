@@ -28,6 +28,7 @@ LightBurn は高機能で、LaserGRBL は軽量で実用的な選択肢です。
 - macOS Apple Silicon ZIP: [`LaserStudio-v1.0.2-macOS-arm64.zip`](releases/LaserStudio-v1.0.2-macOS-arm64.zip)
 - macOS Intel: [`LaserStudio-v1.0.2-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.2-macOS-x86_64.dmg)
 - macOS Intel ZIP: [`LaserStudio-v1.0.2-macOS-x86_64.zip`](releases/LaserStudio-v1.0.2-macOS-x86_64.zip)
+- macOS の動作要件: macOS 13.0 以降。Mac のプロセッサに合うパッケージを選択してください。
 - SHA-256 チェックサム: [`checksums.txt`](releases/checksums.txt)
 - リリースノート: [`release-notes-v1.0.2.md`](releases/release-notes-v1.0.2.md)
 
@@ -37,7 +38,7 @@ LightBurn は高機能で、LaserGRBL は軽量で実用的な選択肢です。
 - 更新通知と設定画面を、対応する 5 言語すべてにローカライズしました。
 - 新規インストール時は対応するシステム言語を使用し、一致する翻訳がない場合は英語へフォールバックします。
 - 材料名、カテゴリ、説明、注意事項、加工概要の多言語対応を完了しました。
-- macOS のランタイム配置、リリース署名、実際の起動確認を強化しました。
+- Qt 6.11 の macOS パッケージを macOS 13.0 以降向けに再構築し、依存関係を分離してアプリバンドル全体の互換性を再帰的に監査しました。
 - 更新確認、言語設定、材料管理、画像オーバースキャンの回帰テストを拡充しました。
 
 ## 主な機能

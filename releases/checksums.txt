@@ -1,5 +1,5 @@
 83c5526add16be94f777e0ecabf3c5126988a0927a8b9a3696baac28cc546351  LaserStudio-1.0.2-windows-x64-33335bc.zip
-c65fd455d4aa19ca15a36f8f27fba79596ddcd5a0ccc034e76255c6c95469387  LaserStudio-v1.0.2-macOS-arm64.dmg
-e533a2158e40c0dd6d48cbcbd582f48426308c1041b48196f0fdaaa45f98bb4f  LaserStudio-v1.0.2-macOS-arm64.zip
-b86a0ff4d283cac42324f2fd4528701b438afd9baefc6d185a235d801ad25714  LaserStudio-v1.0.2-macOS-x86_64.dmg
-92440a98c028964b6bac36f4c85ad84e59b7b387299e348f71d7c5c90a3d3c55  LaserStudio-v1.0.2-macOS-x86_64.zip
+ab457ac8e95cf26572972e9f728dc9683ab890d46d52692ff72b0647c35e90f3  LaserStudio-v1.0.2-macOS-arm64.dmg
+e33024677533e00fde95ea32645868c181be72fa43e9374a278bc1d1daef950c  LaserStudio-v1.0.2-macOS-arm64.zip
+5b7f15e16bb1cf46ca7e6f9b23ecb80392b757d2a335e4d1aa6d8ee11c8c65f4  LaserStudio-v1.0.2-macOS-x86_64.dmg
+411b513c81dab387b2993e9de32417be0dfd8b55a133769fac8c136c8d50b04b  LaserStudio-v1.0.2-macOS-x86_64.zip

@@ -28,6 +28,7 @@ Available packages:
 - macOS Apple Silicon ZIP: [`LaserStudio-v1.0.2-macOS-arm64.zip`](releases/LaserStudio-v1.0.2-macOS-arm64.zip)
 - macOS Intel: [`LaserStudio-v1.0.2-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.2-macOS-x86_64.dmg)
 - macOS Intel ZIP: [`LaserStudio-v1.0.2-macOS-x86_64.zip`](releases/LaserStudio-v1.0.2-macOS-x86_64.zip)
+- macOS requirement: macOS 13.0 or later; choose the package matching your Mac processor.
 - SHA-256 checksums: [`checksums.txt`](releases/checksums.txt)
 - Release notes: [`release-notes-v1.0.2.md`](releases/release-notes-v1.0.2.md)
 
@@ -37,7 +38,7 @@ Available packages:
 - Localized update notifications and settings in all five supported languages.
 - Fresh installations follow a supported system language and fall back to English when no translation matches.
 - Completed localized material names, categories, descriptions, precautions, and process summaries.
-- Strengthened macOS runtime deployment, release signing, and real startup verification.
+- Rebuilt the Qt 6.11 macOS packages for macOS 13.0+, with isolated dependencies and recursive bundle compatibility auditing.
 - Expanded regression coverage for updates, language configuration, material management, and image overscan.
 
 ## Main Features

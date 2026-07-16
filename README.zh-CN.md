@@ -28,6 +28,7 @@ Laser Studio 当前主要面向通过串口 G-code 流式控制的 GRBL 类 XY �
 - macOS Apple Silicon ZIP：[`LaserStudio-v1.0.2-macOS-arm64.zip`](releases/LaserStudio-v1.0.2-macOS-arm64.zip)
 - macOS Intel：[`LaserStudio-v1.0.2-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.2-macOS-x86_64.dmg)
 - macOS Intel ZIP：[`LaserStudio-v1.0.2-macOS-x86_64.zip`](releases/LaserStudio-v1.0.2-macOS-x86_64.zip)
+- macOS 系统要求：macOS 13.0 或更高版本；请按 Mac 处理器选择对应安装包。
 - SHA-256 校验值：[`checksums.txt`](releases/checksums.txt)
 - 版本说明：[`release-notes-v1.0.2.md`](releases/release-notes-v1.0.2.md)
 
@@ -37,7 +38,7 @@ Laser Studio 当前主要面向通过串口 G-code 流式控制的 GRBL 类 XY �
 - 完善更新提示和系统设置等界面的五语言支持。
 - 全新安装会跟随受支持的系统语言，无法匹配翻译时回退到英文。
 - 完成材料名称、分类、说明、注意事项和工艺摘要的多语言适配。
-- 加固 macOS 运行库部署、发布签名和真实启动验证。
+- 使用 Qt 6.11 重新构建 macOS 13.0+ 安装包，并隔离依赖、递归审计整个应用包的系统兼容性。
 - 扩展更新、语言配置、材料管理和图片 overscan 自动回归测试。
 
 ## 主要功能
