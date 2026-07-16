@@ -1,6 +1,6 @@
 # Laser Studio
 
-**版本：V1.0.1**
+**版本：V1.0.2**
 
 語言：
 
@@ -23,23 +23,22 @@ Laser Studio 目前主要面向透過序列埠（串口）G-code 串流控制的
 
 目前可下載檔案：
 
-- Windows x64：[`LaserStudio-1.0.1-windows-x64-d21dae8.zip`](releases/LaserStudio-1.0.1-windows-x64-d21dae8.zip)
-- macOS Apple Silicon：[`LaserStudio-v1.0.1-macOS-arm64.dmg`](releases/LaserStudio-v1.0.1-macOS-arm64.dmg)
-- macOS Apple Silicon ZIP：[`LaserStudio-v1.0.1-macOS-arm64.zip`](releases/LaserStudio-v1.0.1-macOS-arm64.zip)
-- macOS Intel：[`LaserStudio-v1.0.1-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.1-macOS-x86_64.dmg)
-- macOS Intel ZIP：[`LaserStudio-v1.0.1-macOS-x86_64.zip`](releases/LaserStudio-v1.0.1-macOS-x86_64.zip)
+- Windows x64：[`LaserStudio-1.0.2-windows-x64-33335bc.zip`](releases/LaserStudio-1.0.2-windows-x64-33335bc.zip)
+- macOS Apple Silicon：[`LaserStudio-v1.0.2-macOS-arm64.dmg`](releases/LaserStudio-v1.0.2-macOS-arm64.dmg)
+- macOS Apple Silicon ZIP：[`LaserStudio-v1.0.2-macOS-arm64.zip`](releases/LaserStudio-v1.0.2-macOS-arm64.zip)
+- macOS Intel：[`LaserStudio-v1.0.2-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.2-macOS-x86_64.dmg)
+- macOS Intel ZIP：[`LaserStudio-v1.0.2-macOS-x86_64.zip`](releases/LaserStudio-v1.0.2-macOS-x86_64.zip)
 - SHA-256 校驗值：[`checksums.txt`](releases/checksums.txt)
-- 版本說明：[`release-notes-v1.0.1.md`](releases/release-notes-v1.0.1.md)
+- 版本說明：[`release-notes-v1.0.2.md`](releases/release-notes-v1.0.2.md)
 
-## V1.0.1 更新內容
+## V1.0.2 更新內容
 
-- 支援新增材料與工藝預設，並提供受控的覆蓋與刪除流程。
-- 雷射光源選擇會依照已連接裝置的設定自動限制。
-- 改善矩陣陣列、向量路徑節點編輯、多行文字編輯和物件邊界即時更新。
-- 改善長內容 QR Code 產生，並加入非同步進度顯示。
-- 隱藏物件不再參與加工，同時提升列印準備流程的介面回應速度。
-- 更新 Windows 套件，補齊列印工作區多語言、支援的系統語言自動選擇，以及未知或缺少翻譯時回退到英文的處理。
-- 擴充 Windows 與 macOS 跨平台自動回歸測試。
+- 新增啟動自動檢查和手動檢查 GitHub Release 更新；背景失敗會靜默處理，手動失敗時提供發布頁備用連結。
+- 完善更新提示和系統設定等介面的五語言支援。
+- 全新安裝會跟隨受支援的系統語言，無法配對翻譯時回退到英文。
+- 完成材料名稱、分類、說明、注意事項和工藝摘要的多語言適配。
+- 強化 macOS 執行階段部署、發布簽名和實際啟動驗證。
+- 擴充更新、語言設定、材料管理和圖片 overscan 自動回歸測試。
 
 ## 主要功能
 
@@ -144,7 +143,7 @@ G-code 模擬會在同一個列印任務工作區中執行，可在送出到裝�
 
 ## 目前範圍
 
-V1.0.1 聚焦可靠的桌面編輯、材料與工藝管理，以及面向 XY 雷射雕刻機的 GRBL 序列埠串流執行。
+V1.0.2 聚焦可靠的桌面編輯、材料與工藝管理，以及面向 XY 雷射雕刻機的 GRBL 序列埠串流執行。
 
 目前重點：
 

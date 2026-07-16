@@ -1,6 +1,6 @@
 # Laser Studio
 
-**Version: V1.0.1**
+**Version: V1.0.2**
 
 Sprachen:
 
@@ -23,23 +23,22 @@ Ausführbare Dateien werden im Verzeichnis [releases](releases/) bereitgestellt 
 
 Verfügbare Pakete:
 
-- Windows x64: [`LaserStudio-1.0.1-windows-x64-d21dae8.zip`](releases/LaserStudio-1.0.1-windows-x64-d21dae8.zip)
-- macOS Apple Silicon: [`LaserStudio-v1.0.1-macOS-arm64.dmg`](releases/LaserStudio-v1.0.1-macOS-arm64.dmg)
-- macOS Apple Silicon ZIP: [`LaserStudio-v1.0.1-macOS-arm64.zip`](releases/LaserStudio-v1.0.1-macOS-arm64.zip)
-- macOS Intel: [`LaserStudio-v1.0.1-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.1-macOS-x86_64.dmg)
-- macOS Intel ZIP: [`LaserStudio-v1.0.1-macOS-x86_64.zip`](releases/LaserStudio-v1.0.1-macOS-x86_64.zip)
+- Windows x64: [`LaserStudio-1.0.2-windows-x64-33335bc.zip`](releases/LaserStudio-1.0.2-windows-x64-33335bc.zip)
+- macOS Apple Silicon: [`LaserStudio-v1.0.2-macOS-arm64.dmg`](releases/LaserStudio-v1.0.2-macOS-arm64.dmg)
+- macOS Apple Silicon ZIP: [`LaserStudio-v1.0.2-macOS-arm64.zip`](releases/LaserStudio-v1.0.2-macOS-arm64.zip)
+- macOS Intel: [`LaserStudio-v1.0.2-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.2-macOS-x86_64.dmg)
+- macOS Intel ZIP: [`LaserStudio-v1.0.2-macOS-x86_64.zip`](releases/LaserStudio-v1.0.2-macOS-x86_64.zip)
 - SHA-256-Prüfsummen: [`checksums.txt`](releases/checksums.txt)
-- Versionshinweise: [`release-notes-v1.0.1.md`](releases/release-notes-v1.0.1.md)
+- Versionshinweise: [`release-notes-v1.0.2.md`](releases/release-notes-v1.0.2.md)
 
-## Neuerungen in V1.0.1
+## Neuerungen in V1.0.2
 
-- Benutzerdefinierte Materialien und Prozessvorgaben können mit kontrollierten Abläufen zum Überschreiben und Löschen verwaltet werden.
-- Die Auswahl der Laserquelle richtet sich nach der Konfiguration des verbundenen Geräts.
-- Rechteckige Arrays, die Bearbeitung von Vektorpfadknoten, mehrzeiliger Text und die laufende Aktualisierung von Objektgrenzen wurden verbessert.
-- Die QR-Code-Erzeugung für längere Inhalte läuft mit einer asynchronen Fortschrittsanzeige.
-- Ausgeblendete Objekte werden nicht mehr verarbeitet; zugleich reagiert die Druckvorbereitung flüssiger.
-- Das aktualisierte Windows-Paket vervollständigt die Übersetzungen im Druckarbeitsbereich, wählt unterstützte Systemsprachen automatisch und verwendet Englisch als Rückfalloption für unbekannte oder fehlende Übersetzungen.
-- Die automatisierten plattformübergreifenden Regressionstests wurden erweitert.
+- Automatische und manuelle Prüfungen auf neue GitHub Releases wurden ergänzt; Hintergrundfehler bleiben still, die manuelle Prüfung bietet einen nutzbaren Ersatzlink.
+- Update-Hinweise und Einstellungen sind in allen fünf unterstützten Sprachen verfügbar.
+- Neuinstallationen übernehmen eine unterstützte Systemsprache und verwenden Englisch, wenn keine Übersetzung passt.
+- Materialnamen, Kategorien, Beschreibungen, Sicherheitshinweise und Prozesszusammenfassungen wurden vollständig lokalisiert.
+- Laufzeitbereitstellung, Release-Signierung und echte Startprüfung unter macOS wurden robuster gemacht.
+- Regressionstests für Updates, Sprachkonfiguration, Materialverwaltung und Bild-Overscan wurden erweitert.
 
 ## Hauptfunktionen
 
@@ -144,7 +143,7 @@ Die Simulation läuft im selben Druckarbeitsbereich, damit sich der erzeugte Pfa
 
 ## Aktueller Umfang
 
-V1.0.1 konzentriert sich auf zuverlässige Desktop-Bearbeitung, Material- und Prozessverwaltung sowie GRBL-Streaming über serielle Schnittstellen für XY-Lasergravierer.
+V1.0.2 konzentriert sich auf zuverlässige Desktop-Bearbeitung, Material- und Prozessverwaltung sowie GRBL-Streaming über serielle Schnittstellen für XY-Lasergravierer.
 
 Aktueller Fokus:
 

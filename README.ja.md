@@ -1,6 +1,6 @@
 # Laser Studio
 
-**バージョン: V1.0.1**
+**バージョン: V1.0.2**
 
 言語:
 
@@ -23,23 +23,22 @@ LightBurn は高機能で、LaserGRBL は軽量で実用的な選択肢です。
 
 現在ダウンロードできるパッケージ:
 
-- Windows x64: [`LaserStudio-1.0.1-windows-x64-d21dae8.zip`](releases/LaserStudio-1.0.1-windows-x64-d21dae8.zip)
-- macOS Apple Silicon: [`LaserStudio-v1.0.1-macOS-arm64.dmg`](releases/LaserStudio-v1.0.1-macOS-arm64.dmg)
-- macOS Apple Silicon ZIP: [`LaserStudio-v1.0.1-macOS-arm64.zip`](releases/LaserStudio-v1.0.1-macOS-arm64.zip)
-- macOS Intel: [`LaserStudio-v1.0.1-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.1-macOS-x86_64.dmg)
-- macOS Intel ZIP: [`LaserStudio-v1.0.1-macOS-x86_64.zip`](releases/LaserStudio-v1.0.1-macOS-x86_64.zip)
+- Windows x64: [`LaserStudio-1.0.2-windows-x64-33335bc.zip`](releases/LaserStudio-1.0.2-windows-x64-33335bc.zip)
+- macOS Apple Silicon: [`LaserStudio-v1.0.2-macOS-arm64.dmg`](releases/LaserStudio-v1.0.2-macOS-arm64.dmg)
+- macOS Apple Silicon ZIP: [`LaserStudio-v1.0.2-macOS-arm64.zip`](releases/LaserStudio-v1.0.2-macOS-arm64.zip)
+- macOS Intel: [`LaserStudio-v1.0.2-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.2-macOS-x86_64.dmg)
+- macOS Intel ZIP: [`LaserStudio-v1.0.2-macOS-x86_64.zip`](releases/LaserStudio-v1.0.2-macOS-x86_64.zip)
 - SHA-256 チェックサム: [`checksums.txt`](releases/checksums.txt)
-- リリースノート: [`release-notes-v1.0.1.md`](releases/release-notes-v1.0.1.md)
+- リリースノート: [`release-notes-v1.0.2.md`](releases/release-notes-v1.0.2.md)
 
-## V1.0.1 の主な変更点
+## V1.0.2 の主な変更点
 
-- ユーザー作成の材料と加工プリセットに対応し、上書きと削除を確認付きで管理できるようになりました。
-- レーザー光源の選択を、接続した機器の構成に合わせて制限するようにしました。
-- 矩形配列、ベクターパスのノード編集、複数行テキスト編集、オブジェクト境界の即時更新を改善しました。
-- 長い内容の QR コード生成を改善し、非同期の進捗表示を追加しました。
-- 非表示オブジェクトを加工対象から除外し、印刷準備中の画面応答性を改善しました。
-- Windows パッケージを更新し、印刷ワークスペースの多言語対応、対応するシステム言語の自動選択、不明または未翻訳の文言を英語へフォールバックする処理を追加しました。
-- Windows と macOS のクロスプラットフォーム自動回帰テストを拡充しました。
+- GitHub Release の自動確認と手動確認を追加しました。バックグラウンドの失敗は通知せず、手動確認では公開ページへの代替リンクを案内します。
+- 更新通知と設定画面を、対応する 5 言語すべてにローカライズしました。
+- 新規インストール時は対応するシステム言語を使用し、一致する翻訳がない場合は英語へフォールバックします。
+- 材料名、カテゴリ、説明、注意事項、加工概要の多言語対応を完了しました。
+- macOS のランタイム配置、リリース署名、実際の起動確認を強化しました。
+- 更新確認、言語設定、材料管理、画像オーバースキャンの回帰テストを拡充しました。
 
 ## 主な機能
 
@@ -144,7 +143,7 @@ Laser Studio は、GRBL 機器プロファイルとシリアル接続を管理�
 
 ## 現在の対象範囲
 
-V1.0.1 では、信頼性の高いデスクトップ編集、材料と加工設定の管理、および XY レーザー加工機向けの GRBL シリアルストリーミング実行に重点を置いています。
+V1.0.2 では、信頼性の高いデスクトップ編集、材料と加工設定の管理、および XY レーザー加工機向けの GRBL シリアルストリーミング実行に重点を置いています。
 
 現在の重点:
 

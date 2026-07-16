@@ -1,6 +1,6 @@
 # Laser Studio
 
-**版本：V1.0.1**
+**版本：V1.0.2**
 
 语言：
 
@@ -23,23 +23,22 @@ Laser Studio 当前主要面向通过串口 G-code 流式控制的 GRBL 类 XY �
 
 当前可下载文件：
 
-- Windows x64：[`LaserStudio-1.0.1-windows-x64-d21dae8.zip`](releases/LaserStudio-1.0.1-windows-x64-d21dae8.zip)
-- macOS Apple Silicon：[`LaserStudio-v1.0.1-macOS-arm64.dmg`](releases/LaserStudio-v1.0.1-macOS-arm64.dmg)
-- macOS Apple Silicon ZIP：[`LaserStudio-v1.0.1-macOS-arm64.zip`](releases/LaserStudio-v1.0.1-macOS-arm64.zip)
-- macOS Intel：[`LaserStudio-v1.0.1-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.1-macOS-x86_64.dmg)
-- macOS Intel ZIP：[`LaserStudio-v1.0.1-macOS-x86_64.zip`](releases/LaserStudio-v1.0.1-macOS-x86_64.zip)
+- Windows x64：[`LaserStudio-1.0.2-windows-x64-33335bc.zip`](releases/LaserStudio-1.0.2-windows-x64-33335bc.zip)
+- macOS Apple Silicon：[`LaserStudio-v1.0.2-macOS-arm64.dmg`](releases/LaserStudio-v1.0.2-macOS-arm64.dmg)
+- macOS Apple Silicon ZIP：[`LaserStudio-v1.0.2-macOS-arm64.zip`](releases/LaserStudio-v1.0.2-macOS-arm64.zip)
+- macOS Intel：[`LaserStudio-v1.0.2-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.2-macOS-x86_64.dmg)
+- macOS Intel ZIP：[`LaserStudio-v1.0.2-macOS-x86_64.zip`](releases/LaserStudio-v1.0.2-macOS-x86_64.zip)
 - SHA-256 校验值：[`checksums.txt`](releases/checksums.txt)
-- 版本说明：[`release-notes-v1.0.1.md`](releases/release-notes-v1.0.1.md)
+- 版本说明：[`release-notes-v1.0.2.md`](releases/release-notes-v1.0.2.md)
 
-## V1.0.1 更新内容
+## V1.0.2 更新内容
 
-- 支持新增材料和工艺预设，并提供受控的覆盖与删除流程。
-- 激光光源选择会根据已连接设备的配置自动约束。
-- 优化矩阵阵列、矢量路径节点编辑、多行文字编辑和对象包围框实时更新。
-- 优化长内容二维码生成，并增加异步进度显示。
-- 隐藏对象不再参与加工，同时提升打印准备过程的界面响应速度。
-- 更新 Windows 安装包，补齐打印工作区多语言、受支持系统语言自动选择，以及未知或缺失翻译回落到英文的处理。
-- 扩充 Windows 与 macOS 跨平台自动回归测试。
+- 新增启动自动检查和手动检查 GitHub Release 更新；后台失败静默处理，手动失败时提供发布页备用链接。
+- 完善更新提示和系统设置等界面的五语言支持。
+- 全新安装会跟随受支持的系统语言，无法匹配翻译时回退到英文。
+- 完成材料名称、分类、说明、注意事项和工艺摘要的多语言适配。
+- 加固 macOS 运行库部署、发布签名和真实启动验证。
+- 扩展更新、语言配置、材料管理和图片 overscan 自动回归测试。
 
 ## 主要功能
 
@@ -144,7 +143,7 @@ Laser Studio 可以管理 GRBL 打印机配置和串口连接。
 
 ## 当前范围
 
-V1.0.1 聚焦可靠的桌面编辑、材料与工艺管理，以及面向 XY 激光雕刻机的 GRBL 串口流式执行。
+V1.0.2 聚焦可靠的桌面编辑、材料与工艺管理，以及面向 XY 激光雕刻机的 GRBL 串口流式执行。
 
 当前重点：
 

@@ -1,6 +1,6 @@
 # Laser Studio
 
-**Version: V1.0.1**
+**Version: V1.0.2**
 
 Languages:
 
@@ -23,23 +23,22 @@ Executable files are published in the [releases](releases/) directory or attache
 
 Available packages:
 
-- Windows x64: [`LaserStudio-1.0.1-windows-x64-d21dae8.zip`](releases/LaserStudio-1.0.1-windows-x64-d21dae8.zip)
-- macOS Apple Silicon: [`LaserStudio-v1.0.1-macOS-arm64.dmg`](releases/LaserStudio-v1.0.1-macOS-arm64.dmg)
-- macOS Apple Silicon ZIP: [`LaserStudio-v1.0.1-macOS-arm64.zip`](releases/LaserStudio-v1.0.1-macOS-arm64.zip)
-- macOS Intel: [`LaserStudio-v1.0.1-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.1-macOS-x86_64.dmg)
-- macOS Intel ZIP: [`LaserStudio-v1.0.1-macOS-x86_64.zip`](releases/LaserStudio-v1.0.1-macOS-x86_64.zip)
+- Windows x64: [`LaserStudio-1.0.2-windows-x64-33335bc.zip`](releases/LaserStudio-1.0.2-windows-x64-33335bc.zip)
+- macOS Apple Silicon: [`LaserStudio-v1.0.2-macOS-arm64.dmg`](releases/LaserStudio-v1.0.2-macOS-arm64.dmg)
+- macOS Apple Silicon ZIP: [`LaserStudio-v1.0.2-macOS-arm64.zip`](releases/LaserStudio-v1.0.2-macOS-arm64.zip)
+- macOS Intel: [`LaserStudio-v1.0.2-macOS-x86_64.dmg`](releases/LaserStudio-v1.0.2-macOS-x86_64.dmg)
+- macOS Intel ZIP: [`LaserStudio-v1.0.2-macOS-x86_64.zip`](releases/LaserStudio-v1.0.2-macOS-x86_64.zip)
 - SHA-256 checksums: [`checksums.txt`](releases/checksums.txt)
-- Release notes: [`release-notes-v1.0.1.md`](releases/release-notes-v1.0.1.md)
+- Release notes: [`release-notes-v1.0.2.md`](releases/release-notes-v1.0.2.md)
 
-## What's New in V1.0.1
+## What's New in V1.0.2
 
-- Added user-created materials and process presets with controlled overwrite and deletion workflows.
-- Made laser-source selection match the connected device configuration.
-- Improved array layout, vector path node editing, multiline text editing, and live object bounds.
-- Improved QR-code generation for longer content with asynchronous progress.
-- Excluded hidden objects from processing and improved print preparation responsiveness.
-- Refreshed the Windows package with complete print-workspace localization, supported system-language selection, and English fallback for unknown or missing translations.
-- Expanded cross-platform automated regression coverage.
+- Added automatic and manual GitHub Release update checks with silent background failures and an actionable manual fallback.
+- Localized update notifications and settings in all five supported languages.
+- Fresh installations follow a supported system language and fall back to English when no translation matches.
+- Completed localized material names, categories, descriptions, precautions, and process summaries.
+- Strengthened macOS runtime deployment, release signing, and real startup verification.
+- Expanded regression coverage for updates, language configuration, material management, and image overscan.
 
 ## Main Features
 
@@ -144,7 +143,7 @@ Simulation runs inside the same print task workspace so you can inspect the gene
 
 ## Current Scope
 
-V1.0.1 focuses on reliable desktop editing, material and process management, and GRBL serial-stream execution for XY laser engravers.
+V1.0.2 focuses on reliable desktop editing, material and process management, and GRBL serial-stream execution for XY laser engravers.
 
 Current focus:
 
